@@ -1,0 +1,143 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+/* project styles are here */
+.nav-ul li{
+  display: inline-block;
+  padding: 10px;
+}
+.nav-ul {
+padding: 5px;
+margin: 0;
+background-color: yellow;
+}
+
+.nav-ul li a{
+ 
+  color: mediumpurple;
+    padding: 5px;
+    text-decoration: none;
+  }
+ 
+  .login{
+    margin-left: 30%;
+    margin-top: 100px;
+
+  }
+
+
+  .Footer {
+   
+    color: mediumpurple;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    background-color: yellow;
+}
+
+.inputBox {
+  background-color: rgb(241, 237, 237);
+  display: block;
+    margin: 25px;
+    padding: 2px;
+    width: 300px;
+    border: 3px solid rgb(82, 182, 174);
+    border-radius: 5px;
+}
+ .registor, .product {        /*  two classes are there registor and product */
+  margin-left: 30%;
+ }
+ .nav-right {
+  text-align: right;
+ }
+ .heading{
+  text-align: justify;
+ }
+
+ .logo{
+  width: 100px;
+  float:left;
+  border-radius: 50%;
+  margin-top: 3px;
+  margin-left: 20px;
+ }
+
+ .invalid-input {
+  color: red ;
+  margin-top: -23px;
+  display: block;
+  margin-left:-610px;
+ }
+
+ .appButton{ background-color: rgb(241, 237, 237);
+  display: block;
+  
+    margin: 25px;
+    padding: 2px;
+    width: 79px;
+    border: 3px solid rgb(82, 182, 174);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.product-list {
+  text-align: center;
+  margin-top: 50px;
+}
+.product-list ul li {
+  display: inline-block;
+  border: 3px solid yellow;
+  padding: 5px;
+  width: 190px;
+  }
+
+  .product-list ul{
+    margin: 0px 
+  }
+
+  .search-box {
+    
+      width: 315px;
+      height: 23px;
+      margin: 4px;
+      border: 2px solid mediumpurple;
+      border-radius: 20px;
+      padding-left: 30px;
+  
+  }
+/*no more project style*/
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
